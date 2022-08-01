@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 
-@media only screen and (max-width: 540px) {
-    div.toDoList {
-        width: 100%;
+/* @media screen and (orientation: portrait) {
+    h1 {
+        font-style: italic;
     }
-}
+} */
 
 body{
     font: "Raleway", sans-serif;
@@ -18,7 +18,9 @@ body{
 }
 
 h1{
-    font: 600 3.5em "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
+    font-family: 600;
+    font-size: max(4vw, 2.5rem);
     color:rgba(0,0,0,0.5);
     text-align: center;
     text-transform: uppercase;
@@ -26,8 +28,24 @@ h1{
     width: 100%;
 }
 
+
+h2{
+    font-family: "Raleway", sans-serif;
+    font-family: 600;
+    font-size: max(1vw, 1rem);
+    color:rgba(0,0,0,0.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    width: 100%;
+}
+
+
 h3{
     font: 900 1em "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    font-size: max(1.1vw, 1rem);
     color: rgba(0,0,0,0.5);
     text-align: center;
     text-transform: none;
@@ -44,6 +62,6 @@ h3{
 #random{
     margin: 0 10px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: max(1.3vw, 1rem);
 
 }
